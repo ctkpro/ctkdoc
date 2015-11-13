@@ -42,7 +42,7 @@ SourceTree操作畫面
 	![push-remote](https://cloud.githubusercontent.com/assets/6972644/11112517/e5ef32c0-894e-11e5-8c97-9c2a980d0ea2.jpg)
 	
 > **注意事項 **
-> - merge or rebase前要issue review request
+> - merge or rebase前要issue review request (這裡會使用github pull request)
 > - merge or rebase前通過所有的測試
 
 - merge or rebase完將branch砍掉
