@@ -15,37 +15,37 @@
 
 > **注意**：以下畫面的branch name可能沒有統一，因為是在不同的測試中抓取的截圖
 
-1. New Branch
-![create-new-branch](https://cloud.githubusercontent.com/assets/6972644/11111822/da825c02-8947-11e5-9ba0-dc1c88a9b5d2.jpg)
-2. 給一個branch name，按下create branch
-![assign-branch-name](https://cloud.githubusercontent.com/assets/6972644/11111902/928ad52c-8948-11e5-80ad-dc150fca59ba.jpg)
-3. 新的branch建立而且工作區域自動切換到新branch
-![new-branch-created](https://cloud.githubusercontent.com/assets/6972644/11111944/0d0b6f32-8949-11e5-9bff-42d4f8a476cb.jpg)
-4. 把建立的branch push到remote，選取`新開的branch`，勾選`push all tags`
-![push-branch-to-remote](https://cloud.githubusercontent.com/assets/6972644/11139947/45ca2698-8a10-11e5-8c39-643a46a05e23.jpg)
-5. 此時可以發現remote端也會建立一個相同的branch name
-![new-branch-in-remote](https://cloud.githubusercontent.com/assets/6972644/11139983/8487f572-8a10-11e5-974e-8f75e189b0f6.jpg)
-6. 此時我們在local branch做修改，commit並push上傳至remote，這個時候我們就需要team member來幫我們做**code review**了
-![new-code-update](https://cloud.githubusercontent.com/assets/6972644/11140006/c1824d56-8a10-11e5-9949-70ca74261957.jpg)
-7. 到github的頁面，可以對你修改的branch發**pull request**，點選`New Pull Request`
-![pull-request](https://cloud.githubusercontent.com/assets/6972644/11140076/60055a86-8a11-11e5-951c-884f4af19c7c.jpg)
-8. 寫一個comment(比commit message更詳盡)來解釋你修改code的內容或程式邏輯(可以使用markdown)，按下`create pull request`
-![#fill-in-pull-request-information](https://cloud.githubusercontent.com/assets/6972644/11140096/a141a4e6-8a11-11e5-8d64-e6fac659320e.jpg)
-9. 如果需要對各行做comment，可以在之後的頁面點下commit message
-![select-commit-message](https://cloud.githubusercontent.com/assets/6972644/11140133/07415188-8a12-11e5-9ae1-5b6d2e72fe3d.jpg)
-10. 在想要加註解的行數前面按下`加號`，然後加入你對那行的註解，讓別人看到這行程式碼的時候更瞭解你在做什麼？
-![add-comments-in-line](https://cloud.githubusercontent.com/assets/6972644/11140148/2ce04188-8a12-11e5-850f-138c61c29cc4.jpg)
-11. 被assign的人會收到一封email，可以到github上面看這個pull request，如果有問題可以再加回comment，如果沒有問題就按下merge pull request
-12. merge完之後就可以在github上面把branch刪除，刪除完之後即可以通知team member
-![delete-merged-branch](https://cloud.githubusercontent.com/assets/6972644/11140234/43d86112-8a13-11e5-98ad-3be43ed18c9a.jpg)
-13. team member在local端可以按下fetch, 勾選**Prune tracking branches no longer present on remote** 還有**Fetch all tags**
-![fetch-all-tags](https://cloud.githubusercontent.com/assets/6972644/11140254/7f1edbac-8a13-11e5-9a62-42bddc6cd64f.jpg)
-14. fetch完之後會發現remote端的branch已經被刪除
-![remote-branch-been-deleted-from-local](https://cloud.githubusercontent.com/assets/6972644/11140318/284cba5a-8a14-11e5-8851-ab99104c5a88.jpg)
-15. 此時可以把分支切回到`master`，並把之前工作的分支刪除，然而大多數的狀況可能是reviewer還沒時間review，你就必須要開發新功能，這種情況下也沒關係，在local端先切回`master`，然後把工作分支刪除，再接下去開發新feature或是修bug，待reviewer review完merge完之後，再把remote端的分支狀況同步回local端
+1. New Branch  
+![create-new-branch](https://cloud.githubusercontent.com/assets/6972644/11111822/da825c02-8947-11e5-9ba0-dc1c88a9b5d2.jpg)  
+2. 給一個branch name，按下create branch  
+![assign-branch-name](https://cloud.githubusercontent.com/assets/6972644/11111902/928ad52c-8948-11e5-80ad-dc150fca59ba.jpg)  
+3. 新的branch建立而且工作區域自動切換到新branch  
+![new-branch-created](https://cloud.githubusercontent.com/assets/6972644/11111944/0d0b6f32-8949-11e5-9bff-42d4f8a476cb.jpg)  
+4. 把建立的branch push到remote，選取`新開的branch`，勾選`push all tags`  
+![push-branch-to-remote](https://cloud.githubusercontent.com/assets/6972644/11139947/45ca2698-8a10-11e5-8c39-643a46a05e23.jpg)  
+5. 此時可以發現remote端也會建立一個相同的branch name  
+![new-branch-in-remote](https://cloud.githubusercontent.com/assets/6972644/11139983/8487f572-8a10-11e5-974e-8f75e189b0f6.jpg)  
+6. 此時我們在local branch做修改，commit並push上傳至remote，這個時候我們就需要team member來幫我們做**code review**了  
+![new-code-update](https://cloud.githubusercontent.com/assets/6972644/11140006/c1824d56-8a10-11e5-9949-70ca74261957.jpg)  
+7. 到github的頁面，可以對你修改的branch發**pull request**，點選`New Pull Request`  
+![pull-request](https://cloud.githubusercontent.com/assets/6972644/11140076/60055a86-8a11-11e5-951c-884f4af19c7c.jpg)  
+8. 寫一個comment(比commit message更詳盡)來解釋你修改code的內容或程式邏輯(可以使用markdown)，按下`create pull request`  
+![#fill-in-pull-request-information](https://cloud.githubusercontent.com/assets/6972644/11140096/a141a4e6-8a11-11e5-8d64-e6fac659320e.jpg)  
+9. 如果需要對各行做comment，可以在之後的頁面點下commit message  
+![select-commit-message](https://cloud.githubusercontent.com/assets/6972644/11140133/07415188-8a12-11e5-9ae1-5b6d2e72fe3d.jpg)  
+10. 在想要加註解的行數前面按下`加號`，然後加入你對那行的註解，讓別人看到這行程式碼的時候更瞭解你在做什麼？  
+![add-comments-in-line](https://cloud.githubusercontent.com/assets/6972644/11140148/2ce04188-8a12-11e5-850f-138c61c29cc4.jpg)  
+11. 被assign的人會收到一封email，可以到github上面看這個pull request，如果有問題可以再加回comment，如果沒有問題就按下merge pull request  
+12. merge完之後就可以在github上面把branch刪除，刪除完之後即可以通知team member  
+![delete-merged-branch](https://cloud.githubusercontent.com/assets/6972644/11140234/43d86112-8a13-11e5-98ad-3be43ed18c9a.jpg)  
+13. team member在local端可以按下fetch, 勾選**Prune tracking branches no longer present on remote** 還有**Fetch all tags**  
+![fetch-all-tags](https://cloud.githubusercontent.com/assets/6972644/11140254/7f1edbac-8a13-11e5-9a62-42bddc6cd64f.jpg)  
+14. fetch完之後會發現remote端的branch已經被刪除  
+![remote-branch-been-deleted-from-local](https://cloud.githubusercontent.com/assets/6972644/11140318/284cba5a-8a14-11e5-8851-ab99104c5a88.jpg)  
+15. 此時可以把分支切回到`master`，並把之前工作的分支刪除，然而大多數的狀況可能是reviewer還沒時間review，你就必須要開發新功能，這種情況下也沒關係，在local端先切回`master`，然後把工作分支刪除，再接下去開發新feature或是修bug，待reviewer review完merge完之後，再把remote端的分支狀況同步回local端  
 	
-> **注意事項 **
-> - merge or rebase前通過所有的測試
+> **注意事項 **  
+> - merge or rebase前通過所有的測試  
 
 ## 其它工作建議
 - 適度使用wiki (適用詳盡的解說)
