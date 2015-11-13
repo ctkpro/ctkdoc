@@ -3,9 +3,9 @@
 ## 開發流程簡述
 - 開發任何功能或debug前都要開一個branch (必讀2篇文章：[什麼是branch](https://github.com/doggy8088/Learn-Git-in-30-days/blob/master/docs/08%20%E9%97%9C%E6%96%BC%E5%88%86%E6%94%AF%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%A7%80%E5%BF%B5%E8%88%87%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F.markdown)，[透過分支在同一個遠端儲存庫中進行版控](https://github.com/doggy8088/Learn-Git-in-30-days/blob/master/docs/27%20%E9%80%8F%E9%81%8E%E5%88%86%E6%94%AF%E5%9C%A8%E5%90%8C%E4%B8%80%E5%80%8B%E9%81%A0%E7%AB%AF%E5%84%B2%E5%AD%98%E5%BA%AB%E4%B8%AD%E9%80%B2%E8%A1%8C%E7%89%88%E6%8E%A7.markdown))
 
-> **[BranchName]**
-> feature/xxx
-> hotfix/xxx
+> **[BranchName]**  
+> feature/xxx  
+> hotfix/xxx  
 
 - 新功能或bug fix都在新的branch上工作
 - 做完之後發pull request給team member做code review
