@@ -2,4 +2,4 @@
 This is the documentation for CTKPro
 
 ## git
-- [CTKPro git æﬁß@¨yµ{](https://github.com/ctkpro/ctkdoc/blob/master/git/git.md)
+- [CTKPro git ‰ΩøÁî®ÊµÅÁ®ã](https://github.com/ctkpro/ctkdoc/blob/master/git/git.md)
