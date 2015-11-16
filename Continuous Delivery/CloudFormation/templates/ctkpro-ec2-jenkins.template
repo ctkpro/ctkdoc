@@ -435,6 +435,7 @@
         }
       },
       "Properties": {
+        "AssociatePublicIpAddress": true,
         "KeyName": {
           "Ref": "KeyName"
         },
