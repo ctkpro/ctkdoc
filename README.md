@@ -6,6 +6,47 @@ This is the documentation for CTKPro
 
 ## Javascript
 
+### NodeJS coding style
+- [npm-coding-style](https://docs.npmjs.com/misc/coding-style)
+- [Felix's Node.js Style Guide](http://nodeguide.com/style.html)
+
+<a name="ctkproJsCodingStyle"/>
+#### 綜合上面2個建議使用如下：
+
+##### 程式一行長度
+一行不要超過80個字
+
+##### code indent (程式縮排)
+2個space
+  
+##### 大括弧 **{**
+正確：放在後面，不要放新的一行
+
+```
+function () {
+```
+
+錯誤：
+
+```
+function ()
+{
+```
+
+##### Quotes (單引號)
+使用單引號，除了JSON以外
+正確
+
+```
+var foo = 'bar';
+```
+
+錯誤
+
+```
+var foo = "bar";
+```
+
 ### ES6
 - [ES6語法 update (udemy課程分享)](https://docs.google.com/document/d/19ZutRGjnaNQRyRhmkwNnowRTKbpKjYx9h4xtGdxNVhA/edit)
 
