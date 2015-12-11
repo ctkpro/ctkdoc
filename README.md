@@ -11,7 +11,7 @@ This is the documentation for CTKPro
 - [Felix's Node.js Style Guide](http://nodeguide.com/style.html)
 
 <a name="ctkproJsCodingStyle"/>
-#### 綜合上面2個建議使用如下：
+綜合上面2個建議使用如下：
 
 ##### 程式一行長度
 一行不要超過80個字
@@ -46,6 +46,12 @@ var foo = 'bar';
 ```
 var foo = "bar";
 ```
+
+##### 命名規則
+- 使用 **lowerCamelCase** 在 objects, functions, methods, properties, 還有以下沒有被敘述到的東西
+- 使用 **UpperCamelCase** 在 class names (things that you'd pass to "new").
+- 使用 **all-lower-hyphen-css-case** 在 filenames and config keys.
+- 使用 **CAPS_SNAKE_CASE** 在 constants, things that should never change and are rarely used.
 
 ### ES6
 - [ES6語法 update (udemy課程分享)](https://docs.google.com/document/d/19ZutRGjnaNQRyRhmkwNnowRTKbpKjYx9h4xtGdxNVhA/edit)
