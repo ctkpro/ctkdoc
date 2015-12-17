@@ -12,4 +12,10 @@
 ![store_subscribe](https://cloud.githubusercontent.com/assets/6972644/11875216/9eea7402-a51e-11e5-8f46-ad411a0646b6.jpg)
 - 把render function extract出來，並執行一次，就不用在click的時候才顯示，第一次執行就會顯示目前的counter
 ![extract render](https://cloud.githubusercontent.com/assets/6972644/11875263/d400cdd0-a51e-11e5-8487-fd4964cfce69.jpg)
-- 
+- createStore大概長這樣, ```dispatch({})``` 是讓store有一個初始的狀態
+![createStore](https://cloud.githubusercontent.com/assets/6972644/11875441/8f553940-a51f-11e5-8b27-bca6fb83f2bc.jpg)
+- 現在要把react帶進來, render裡面會根據event觸發action
+![counter](https://cloud.githubusercontent.com/assets/6972644/11875536/187dbb5c-a520-11e5-841d-4cbbc51c350b.jpg)
+![introduce_react](https://cloud.githubusercontent.com/assets/6972644/11875556/333e2bca-a520-11e5-9d09-7424d5e28c69.jpg)
+![application_look_like](https://cloud.githubusercontent.com/assets/6972644/11875588/638ce316-a520-11e5-971a-cc24bb31299d.jpg)
+

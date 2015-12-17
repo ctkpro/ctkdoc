@@ -66,3 +66,4 @@ var foo = "bar";
 - [Redux gitbook的中文化版本](http://chentsulin.github.io/redux/docs/advanced/index.html)
 - [Dan Abramov - Live React: Hot Reloading with Time Travel at react-europe 2015 (redux神人demo)](https://www.youtube.com/watch?v=xsSnOQynTHs)
 - [Relay and GraphQL Introduction Materials](https://quip.com/oLxzA1gTsJsE)
+- [Redux簡介 (中文)](http://huli.logdown.com/posts/294037-javascript-redux-basic-tutorial)
