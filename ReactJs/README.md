@@ -18,7 +18,6 @@
 
 #### [React Counter Example](https://egghead.io/lessons/javascript-redux-react-counter-example)
 
-- [video:React Counter Example](https://egghead.io/lessons/javascript-redux-react-counter-example)
 - 現在要把react帶進來, render裡面會根據event觸發action
 ![counter](https://cloud.githubusercontent.com/assets/6972644/11875536/187dbb5c-a520-11e5-841d-4cbbc51c350b.jpg)
 ![introduce_react](https://cloud.githubusercontent.com/assets/6972644/11875556/333e2bca-a520-11e5-9d09-7424d5e28c69.jpg)
