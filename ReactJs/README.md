@@ -1,4 +1,5 @@
 ### Getting Started with Redux
+
 - [參考](https://egghead.io/lessons/javascript-redux-describing-state-changes-with-actions)
 
 - 每個component的狀態都由redux的state來maintain
@@ -14,7 +15,9 @@
 ![extract render](https://cloud.githubusercontent.com/assets/6972644/11875263/d400cdd0-a51e-11e5-8487-fd4964cfce69.jpg)
 - createStore大概長這樣, ```dispatch({})``` 是讓store有一個初始的狀態
 ![createStore](https://cloud.githubusercontent.com/assets/6972644/11875441/8f553940-a51f-11e5-8b27-bca6fb83f2bc.jpg)
-#### React Counter Example
+
+#### [React Counter Example](https://egghead.io/lessons/javascript-redux-react-counter-example)
+
 - [video:React Counter Example](https://egghead.io/lessons/javascript-redux-react-counter-example)
 - 現在要把react帶進來, render裡面會根據event觸發action
 ![counter](https://cloud.githubusercontent.com/assets/6972644/11875536/187dbb5c-a520-11e5-841d-4cbbc51c350b.jpg)
