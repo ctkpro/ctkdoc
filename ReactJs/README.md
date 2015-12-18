@@ -23,3 +23,34 @@
 ![introduce_react](https://cloud.githubusercontent.com/assets/6972644/11875556/333e2bca-a520-11e5-9d09-7424d5e28c69.jpg)
 ![application_look_like](https://cloud.githubusercontent.com/assets/6972644/11875588/638ce316-a520-11e5-971a-cc24bb31299d.jpg)
 
+#### [Avoiding Array Mutations with concat(), slice(), and ...spread](https://egghead.io/lessons/javascript-redux-avoiding-array-mutations-with-concat-slice-and-spread?series=getting-started-with-redux)
+
+- redux的state是imutable的，對於array的操作也是一樣，要呼叫的function是不能改變原本物件的function
+- 加元素不要用```list.push(0)```，要用```list.concat(0)``` 
+
+'''
+//ES6語法
+[...list, 0]
+'''
+
+- 刪除元素不要用```list.splice(index, 1)```, 要用```list.slice(0, index).concat(list.slice(index+1))```
+
+'''
+//ES6語法
+[
+...list.slice(0, index),
+...list.slice(index+1)
+]
+'''
+
+- 修改元素不要用(e.g. 元素值+1)```list[index]++```, 要用```list.slice(0, index).concat([list[index]+1]).concat(list.slice(index+1))```
+
+'''
+//ES6語法
+[
+...list.slice(0, index),
+list[index]+1,
+...list.slice(index+1)
+]
+
+```
