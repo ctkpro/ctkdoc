@@ -6,6 +6,9 @@ This is the documentation for CTKPro
 
 ## Javascript
 
+### NodeJS 經驗談
+- 機器的memory一定要夠大(4 GB), install或執行時才不會有問題，如果遇到很不一定發生的問題，可以檢查memory的使用率
+
 ### NodeJS coding style
 - [npm-coding-style](https://docs.npmjs.com/misc/coding-style)
 - [Felix's Node.js Style Guide](http://nodeguide.com/style.html)
