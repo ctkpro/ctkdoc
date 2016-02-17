@@ -1,4 +1,5 @@
 #Table of Contents
+- [Decorator](Decorator.md)
 - [Observer](Observer.md)
 
 # Ref Resources
