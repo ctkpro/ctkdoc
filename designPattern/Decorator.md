@@ -36,4 +36,3 @@ export default function connectData(fetchData, fetchDataDeferred) {
 - 
 
 
-https://github.com/gajus/react-css-modules#decorator
