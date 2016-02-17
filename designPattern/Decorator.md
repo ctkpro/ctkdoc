@@ -1,5 +1,8 @@
 # Decorator
 
+- GoF 參考架構圖
+![GoF Decorator](https://cloud.githubusercontent.com/assets/6972644/13096814/1d4c55b4-d557-11e5-8e71-5f39f3cbae99.jpg)
+
 - 參考react的@connectData
 
 ```javascript
