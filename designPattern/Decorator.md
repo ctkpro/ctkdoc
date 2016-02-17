@@ -27,3 +27,6 @@ export default function connectData(fetchData, fetchDataDeferred) {
   };
 }
 ```
+
+- 設計 **Decorator** 時最好不要有相依性(e.g. 『進行資料加密』的 **Decorator** 可能會妨礙『用以過濾某些字』的 **Decorator** -- 如果加密發生於過濾之前)
+- 如果實在有相依性可以使用 **Creation Methods** 取用 **Decorator** 的安全組合 (參考： *Encapsulate Classes with Factory*)
