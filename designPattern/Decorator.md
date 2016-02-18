@@ -36,3 +36,5 @@ export default function connectData(fetchData, fetchDataDeferred) {
 - 
 
 
+- Decorator 動態的增加物件的功能。相對於用繼承的方式來擴充功能，裝飾品提供更彈性的方法來擴充物件的功能。
+
