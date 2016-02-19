@@ -4,7 +4,7 @@
 - 要為原有的物件添增新的功能，此功能可能在各個不同的物件中執行相同的動作
 
 ### 過去哪些案子裡有用過類似的Pattern
-- ```redux```的 ````@connect```, ````@connectData```, 還有```react-intl```的```@injectIntl```
+- ```redux```的 ````@connect``` ， ````@connectData``` ， 還有 ```react-intl``` 的 ```@injectIntl```
 
 ### 哪個案子裡的設計如果可以用這個Pattern會更好
 - mgr的poject中有很多unbind().bind()的功能，有可能會unbind過去的動作結果發生潛在的錯誤，可以參考 **Javascript 設計模式與開發實踐**裡提到的window.onload的作法
