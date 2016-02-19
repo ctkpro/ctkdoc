@@ -1,13 +1,26 @@
 # Decorator
 
 ### 心得
-- ...
+- 要為原有的物件添增新的功能，此功能可能在各個不同的物件中執行相同的動作
 
 ### 過去哪些案子裡有用過類似的Pattern
 - ```redux```的 ````@connect```, ````@connectData```, 還有```react-intl```的```@injectIntl```
 
 ### 哪個案子裡的設計如果可以用這個Pattern會更好
-- ...
+- mgr的poject中有很多unbind().bind()的功能，有可能會unbind過去的動作結果發生潛在的錯誤，可以參考 **Javascript 設計模式與開發實踐**裡提到的window.onload的作法
+
+```javascript
+window.onload = function(){
+    alert(1);
+}
+
+var _onload = window.onload || function(){};
+
+window.onload = function(){
+    _onload();
+    alert(2);
+}
+```
 
 ### 重點整理
 
@@ -44,5 +57,6 @@ export default function connectData(fetchData, fetchDataDeferred) {
 
 - 設計 **Decorator** 時最好不要有相依性(e.g. 『進行資料加密』的 **Decorator** 可能會妨礙『用以過濾某些字』的 **Decorator** -- 如果加密發生於過濾之前)
 - 如果實在有相依性可以使用 **Creation Methods** 取用 **Decorator** 的安全組合 (參考： *Encapsulate Classes with Factory*)
-- Decorator 動態的增加物件的功能。相對於用繼承的方式來擴充功能，裝飾品提供更彈性的方法來擴充物件的功能。
+- **Decorator** 動態的增加物件的功能。相對於用繼承的方式來擴充功能，裝飾品提供更彈性的方法來擴充物件的功能。
+- 在不改變函數原始碼的情況下，能給函數增加功能[Javascript 設計模式與開發實踐]
 
