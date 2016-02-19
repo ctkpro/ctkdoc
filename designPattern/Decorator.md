@@ -79,4 +79,5 @@ export default function connectData(fetchData, fetchDataDeferred) {
 - 如果實在有相依性可以使用 **Creation Methods** 取用 **Decorator** 的安全組合 (參考： *Encapsulate Classes with Factory*)
 - **Decorator** 動態的增加物件的功能。相對於用繼承的方式來擴充功能，裝飾品提供更彈性的方法來擴充物件的功能。
 - 在不改變函數原始碼的情況下，能給函數增加功能[Javascript 設計模式與開發實踐]
+- [ES6 Decorator](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841#.vf3nbdani)
 
