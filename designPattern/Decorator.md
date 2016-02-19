@@ -1,5 +1,16 @@
 # Decorator
 
+### 心得
+- ...
+
+### 過去哪些案子裡有用過類似的Pattern
+- ```redux```的 ````@connect```, ````@connectData```, 還有```react-intl```的```@injectIntl```
+
+### 哪個案子裡的設計如果可以用這個Pattern會更好
+- ...
+
+### 重點整理
+
 - GoF 參考架構圖
 ![GoF Decorator](https://cloud.githubusercontent.com/assets/6972644/13096814/1d4c55b4-d557-11e5-8e71-5f39f3cbae99.jpg)
 
@@ -33,8 +44,5 @@ export default function connectData(fetchData, fetchDataDeferred) {
 
 - 設計 **Decorator** 時最好不要有相依性(e.g. 『進行資料加密』的 **Decorator** 可能會妨礙『用以過濾某些字』的 **Decorator** -- 如果加密發生於過濾之前)
 - 如果實在有相依性可以使用 **Creation Methods** 取用 **Decorator** 的安全組合 (參考： *Encapsulate Classes with Factory*)
-- 
-
-
 - Decorator 動態的增加物件的功能。相對於用繼承的方式來擴充功能，裝飾品提供更彈性的方法來擴充物件的功能。
 
