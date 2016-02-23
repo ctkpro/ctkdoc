@@ -2,6 +2,7 @@
 
 - [如何設定EC2的role，讓EC2可以被CodeDeploy deploy code](#set_ec2_role)
 - [如何設定CodeDeploy本身要用的role](#set_codedeploy_role)
+- [Create New CodeDeploy Application](#create_codedeploy_application)
 
 <a name="set_ec2_role"></a>
 ### 如何設定EC2的role，讓EC2可以被CodeDeploy deploy code
@@ -27,3 +28,14 @@
 
 3. 選擇 **AWSCodeDeployRole**
 ![3](https://cloud.githubusercontent.com/assets/6972644/13245100/c1772bd0-da45-11e5-8003-46e535d0cae0.jpg)
+
+<a name="create_codedeploy_application"></a>
+### Create New CodeDeploy Application
+1. 選擇 **Custom Deployment**
+![1](https://cloud.githubusercontent.com/assets/6972644/13245227/c3cdf67e-da46-11e5-9f1e-322b9acc1c46.jpg)
+
+2. 填好對應資料，注意此EC2的Name必須要為存在的ec2 instance，不能隨便亂給
+![2](https://cloud.githubusercontent.com/assets/6972644/13245229/c3d26dd0-da46-11e5-811e-f9306a012aaa.jpg)
+
+3. Service role要選擇在[[如何設定CodeDeploy本身要用的role](#set_codedeploy_role)]裡設定好的role
+![3](https://cloud.githubusercontent.com/assets/6972644/13245228/c3cf03e8-da46-11e5-8613-513d1af48549.jpg)
