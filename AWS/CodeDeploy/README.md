@@ -39,3 +39,14 @@
 
 3. Service role要選擇在[[如何設定CodeDeploy本身要用的role](#set_codedeploy_role)]裡設定好的role
 ![3](https://cloud.githubusercontent.com/assets/6972644/13245228/c3cf03e8-da46-11e5-8613-513d1af48549.jpg)
+
+<a name="create_codedeploy_deployment"></a>
+### Create New Deployment
+1. Select **Deploy new revision**
+![1](https://cloud.githubusercontent.com/assets/6972644/13245860/0cc9c944-da4b-11e5-802c-466ef3b40e43.jpg)
+
+2. 填入相關資訊，按下 **Connect Github**
+![2](https://cloud.githubusercontent.com/assets/6972644/13245862/0cca6d04-da4b-11e5-85b4-fa42763c998b.jpg)
+
+3. 填入相關資訊
+![3](https://cloud.githubusercontent.com/assets/6972644/13245861/0cca3596-da4b-11e5-99b1-18b22a4d2ac4.jpg)
