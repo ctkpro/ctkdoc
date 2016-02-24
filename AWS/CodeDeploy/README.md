@@ -49,7 +49,7 @@
 1. 選擇好要deploy的deployment group，然後選擇 **Deploy new revision**
 ![1](https://cloud.githubusercontent.com/assets/6972644/13245860/0cc9c944-da4b-11e5-802c-466ef3b40e43.jpg)
 
-2. 填入相關資訊，按下 **Connect Github**
+2. 填入相關資訊，按下 **Connect Github** (這個步驟只有在第一次需要執行，執行完以後就不用再connect一次了)
 ![2](https://cloud.githubusercontent.com/assets/6972644/13245862/0cca6d04-da4b-11e5-85b4-fa42763c998b.jpg)
 
 > commit ID為你想要deploy的那個版本的commit ID，可到github複制 
