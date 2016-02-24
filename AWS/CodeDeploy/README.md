@@ -3,7 +3,7 @@
 - [如何設定EC2的role，讓EC2可以被CodeDeploy deploy code](#set_ec2_role)
 - [如何設定CodeDeploy本身要用的role](#set_codedeploy_role)
 - [Create New CodeDeploy Application](#create_codedeploy_application)
-- [Create New Deployment](#create_codedeploy_deployment)
+- [手動Deploy新版程式碼](#deploy_new_revision)
 
 <a name="set_ec2_role"></a>
 ### 如何設定EC2的role，讓EC2可以被CodeDeploy deploy code
@@ -36,14 +36,17 @@
 ![1](https://cloud.githubusercontent.com/assets/6972644/13245227/c3cdf67e-da46-11e5-9f1e-322b9acc1c46.jpg)
 
 2. 填好對應資料，注意此EC2的Name必須要為存在的ec2 instance，不能隨便亂給
+
+> 這個步驟是 **Create Application** 兼 **Create Deployment**，之後如果要單獨create其他的 **Deployment** 可以參考這個步驟
+
 ![2](https://cloud.githubusercontent.com/assets/6972644/13245229/c3d26dd0-da46-11e5-811e-f9306a012aaa.jpg)
 
 3. Service role要選擇在[[如何設定CodeDeploy本身要用的role](#set_codedeploy_role)]裡設定好的role
 ![3](https://cloud.githubusercontent.com/assets/6972644/13245228/c3cf03e8-da46-11e5-8613-513d1af48549.jpg)
 
-<a name="create_codedeploy_deployment"></a>
-### Create New Deployment
-1. Select **Deploy new revision**
+<a name="deploy_new_revision"></a>
+### 手動Deploy新版程式碼
+1. 選擇好要deploy的deployment group，然後選擇 **Deploy new revision**
 ![1](https://cloud.githubusercontent.com/assets/6972644/13245860/0cc9c944-da4b-11e5-802c-466ef3b40e43.jpg)
 
 2. 填入相關資訊，按下 **Connect Github**
@@ -54,3 +57,5 @@
 
 3. 填入相關資訊
 ![3](https://cloud.githubusercontent.com/assets/6972644/13245861/0cca3596-da4b-11e5-99b1-18b22a4d2ac4.jpg)
+
+> repository name為專案在github上面的full name, e.g. ctkpro/canjune, ctkpro/canjune_restful
