@@ -49,8 +49,8 @@
 2. 填入相關資訊，按下 **Connect Github**
 ![2](https://cloud.githubusercontent.com/assets/6972644/13245862/0cca6d04-da4b-11e5-85b4-fa42763c998b.jpg)
 
-commit ID為你想要deploy的那個版本的commit ID，可到github複制
-![copy commit id](https://cloud.githubusercontent.com/assets/6972644/13275226/84b73598-daed-11e5-9686-6e338e929129.jpg)
+> commit ID為你想要deploy的那個版本的commit ID，可到github複制 
+> ![copy commit id](https://cloud.githubusercontent.com/assets/6972644/13275226/84b73598-daed-11e5-9686-6e338e929129.jpg)
 
 3. 填入相關資訊
 ![3](https://cloud.githubusercontent.com/assets/6972644/13245861/0cca3596-da4b-11e5-99b1-18b22a4d2ac4.jpg)
