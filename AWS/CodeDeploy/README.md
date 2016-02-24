@@ -55,7 +55,7 @@
 3. 填入相關資訊
 ![3](https://cloud.githubusercontent.com/assets/6972644/13245861/0cca3596-da4b-11e5-99b1-18b22a4d2ac4.jpg)
 
-> - repository name為專案在github上面的full name, e.g. ctkpro/canjune, ctkpro/canjune_restful
+> - repository name為專案在github上面的full name, e.g. **ctkpro/canjune** , **ctkpro/canjune_restful****
 > - commit ID為你想要deploy的那個版本的commit ID，可到github複制 
 > ![copy commit id](https://cloud.githubusercontent.com/assets/6972644/13275226/84b73598-daed-11e5-9686-6e338e929129.jpg)
 
